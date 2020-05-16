@@ -1,0 +1,2 @@
+class ConsumedListsController < ApplicationController
+end

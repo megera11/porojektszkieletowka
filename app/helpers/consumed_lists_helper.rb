@@ -1,0 +1,2 @@
+module ConsumedListsHelper
+end

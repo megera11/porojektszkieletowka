@@ -1,0 +1,30 @@
+<%= form_with scope: :food_item, url: food_items_path, local: true do |form| %>
+  <p>
+    <%= form.label :Nazwa %><br>
+    <%= form.text_field :name %>
+  </p>
+
+  <p>
+    <%= form.label :Kalorie %><br>
+    <%= form.text_field :kcal %>
+  </p>
+
+  <p>
+    <%= form.label :Bialko %><br>
+    <%= form.text_field :protein %>
+  </p>
+
+  <p>
+    <%= form.label :Weglowodany %><br>
+    <%= form.text_field :carbohydrate %>
+  </p>
+
+  <p>
+    <%= form.label :Tluszcz %><br>
+    <%= form.text_field :fat %>
+  </p>
+
+  <p>
+    <%= form.submit %>
+  </p>
+  <% end %>
